@@ -1,0 +1,284 @@
+/* Basic CSS for the page */
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+
+body {
+    font-family: 'Futura Std', sans-serif;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #ffffff;
+    color: #233CE6;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    background-image: url("background.gif");
+}
+
+/* Video styling */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+header h1 {
+    font-size: 160px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.socials {
+    width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+}
+
+svg {
+    width: 120px;
+    height: 120px;
+
+}
+
+path {
+    fill: #ffffff;
+    font-weight: 300;
+    stroke: #233CE6;
+    stroke-width: 0.4px;
+    animation: rainbow 1s linear infinite;
+}
+
+
+.copycontract {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 4%;
+}
+
+.copycontract button {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.copycontract h3 {
+    margin-left: 10px;
+}
+
+.about h3{
+    line-height: 35px;
+    width: 700px;
+}
+h3 {
+    font-size: 35px;
+    font-weight: 300;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #ffffff;
+    color: #233CE6;
+}
+
+h2 {
+    margin-bottom: 0%;
+    font-size: 90px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    color: #233CE6;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Button style */
+button {
+    -webkit-text-stroke-width: 0px;
+    background-color: #233CE6;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    height: 58px;
+    font-family: 'Futura Std', sans-serif;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #233CE6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.infoinner {
+    padding: 10px;
+    margin: 1px;
+
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: white;
+    width: 500px;
+    height: 500px;
+    /* display: inline-block; */
+}
+
+
+.infoinner2 {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 500px;
+    height: 500px;
+    /* display: inline-block; */
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #233CE6;
+    border-width: 4px;
+    border-radius: 400px;
+    background-image: url("basechain.png");
+    background-size: cover;
+    margin-top: 20%;
+}
+
+.tokenomics {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.info2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.tokenomicscard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 500px;
+    height: auto;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background-color: #233de682;
+    /* display: inline-block; */
+}
+
+
+.howtobuycard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 1000px;
+    height: auto;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-color: rgba(255, 0, 0, 0);
+    background-color: #233de682;
+    /* display: inline-block; */
+}
+
+.disclaimer {
+    background-color: #000000;
+    -webkit-text-stroke-width: 0px;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0;
+}
+
+.howtobuycard h3 {
+    font-size: 25px;
+    margin-top: 0%;
+}
+
+
+#number{
+    font-size: 45px;
+}
